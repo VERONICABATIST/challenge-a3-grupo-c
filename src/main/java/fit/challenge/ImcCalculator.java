@@ -14,7 +14,7 @@ public class ImcCalculator {
 
 		if (imc < 18.5) return "Magreza";		
 		if (imc >= 18 && imc < 24.9) return "Normal";		
-		if (imc >= 24.9 && imc < 30) return "Sobrepeso";		
+		if (imc >= 24.9 && imc <= 30) return "Sobrepeso";		
 		if (imc > 30) return "Obesidade";
 		
 		return "Erro inesperado!";
